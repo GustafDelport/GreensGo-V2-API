@@ -1,0 +1,22 @@
+{
+  "name": "greensgo-v2-frontend",
+  "version": "2.0.0",
+  "description": "Provide later",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustafDelport/GreensGo-V2-FrontEnd.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "GreensGo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd#readme"
+}
