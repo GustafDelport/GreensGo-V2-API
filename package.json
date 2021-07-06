@@ -4,7 +4,7 @@
   "description": "Provide later",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd/issues"
   },
-  "homepage": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd#readme"
+  "homepage": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
 }
