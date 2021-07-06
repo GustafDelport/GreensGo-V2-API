@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd/issues"
   },
-  "homepage": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd#readme"
+  "homepage": "https://github.com/GustafDelport/GreensGo-V2-FrontEnd#readme",
+  "dependencies": {
+    "mongodb": "^3.6.9"
+  }
 }
