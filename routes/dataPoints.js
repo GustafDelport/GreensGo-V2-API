@@ -34,8 +34,8 @@ router.post('/send',async (req,res) => {
     }
 })
 
-// router.post('/point',async (req,res) => {
-//     console.log(req);
-// })
+router.post('/point',async (req,res) => {
+    console.log(req);
+})
 
 module.exports = router
