@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const DataSchema = mongoose.Schema({
-    time: Date,
+    Time: String,
     Temperature: String, 
     HumidityPercentage: String, 
     MoisturePercentage: String, 
