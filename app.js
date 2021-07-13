@@ -20,10 +20,6 @@ db.once('open', () => console.log("Connected to Database"))
 
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    res.send("working")
-})
-
 const SensorRouter = require('./routes/dataPoints.js')
 app.use('/dataPoints',SensorRouter)
 
