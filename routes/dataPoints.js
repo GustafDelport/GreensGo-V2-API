@@ -7,7 +7,11 @@ router.get('/all',async (req,res) => {
 
     try {
          const Data = await SensorData.find()
-         res.json(Data)
+         if (!(Data)) {
+              res.status(404).json({message: "No Data was found"})
+         }
+         else res.json(Data)
+         
     } 
     catch (error) {
          res.status(500).json({ message: error.message})
